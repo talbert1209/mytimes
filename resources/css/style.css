@@ -1,0 +1,47 @@
+/* general formatting */
+body {
+  margin: 0;
+}
+
+/* -------------- Header --------------- */
+
+/* format header container */
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  padding-right: 20px;
+  border-bottom: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* format logo container */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+/* format nav container */
+header nav {
+  padding: 5px;
+}
+
+/* format individual <span> links */
+header nav span {
+  padding: 10px;
+}
+
+/* format logo text (non image) */
+.logo span {
+  color: MediumAquaMarine;
+  padding-left: 5px;
+}
+
+/*format header links */
+header a {
+  color: black;
+}
