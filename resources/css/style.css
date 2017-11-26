@@ -10,12 +10,18 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding: 10px;
-  padding-right: 20px;
+  padding: 15px;
+  padding-right: 30px;
   border-bottom: solid black 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: white;
 }
 
 /* format logo container */
@@ -54,6 +60,7 @@ header a {
   justify-content: space-between;
   margin: 30px;
   border: solid black 1px;
+  padding-top: 90px;
 }
 
 /* format large container */
@@ -65,7 +72,6 @@ header a {
 /* format medium container */
 .medium-container {
   width: 300px;
-  height: 500px;
   border: solid black 1px;
 }
 
@@ -100,5 +106,12 @@ header a {
 /* format old-story and old-story-img */
 .old-story,
 .old-story-img {
+  border: solid black 1px;
+}
+
+/* format side-story and side-story-img */
+.middle-story-container,
+.middle-story,
+.middle-story-img {
   border: solid black 1px;
 }
