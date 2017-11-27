@@ -55,6 +55,55 @@ header a {
 
 /* ---------------- Main Content ----------------- */
 
+/* format text in main stories */
+p,
+h2,
+h3 {
+  font-family: Georgia;
+  color: black;
+}
+
+p {
+  font-size: 17px;
+}
+
+/* add background image to #earth */
+#earth {
+  background-image: url("../images/fall-season.png");
+  height: 300px;
+  display: flex;
+}
+
+/* add background image to #camera */
+#camera {
+  background-image: url("../images/hip-cameraman.png");
+  height: 300px;
+  display: flex;
+}
+
+/* add background image to middle-story-img */
+.middle-story-img {
+  background-image: url("../images/cat-ceo.png");
+  height: 300px;
+  display: flex;
+}
+
+/* format text of middle-story-img */
+.middle-story-img span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+/* format text in image of main column */
+.old-story-img span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 /* format main container */
 .main-container {
   display: flex;
@@ -97,6 +146,17 @@ header a {
 /* format headline-image */
 .headline-image {
   border: solid black 1px;
+  background-image: url("../images/main-story.png");
+  height: 300px;
+  display: flex;
+}
+
+/* format text in image */
+.headline-image span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 /* format old-story-container */
