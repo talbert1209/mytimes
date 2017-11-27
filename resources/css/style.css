@@ -1,7 +1,6 @@
 /* general formatting */
 body {
   margin: 0;
-  display: flex;
 }
 
 /* -------------- Header --------------- */
@@ -105,7 +104,7 @@ p {
   text-align: center;
 }
 
-/* format main container */
+/* format MAIN CONTAINER */
 .main-container {
   display: flex;
   justify-content: flex-start;
@@ -116,23 +115,22 @@ p {
 /* format large container */
 .large-container {
   width: 630px;
-  flex-shrink: 1;
+  margin-right: 32px;
+  flex-shrink: 0;
 }
 
 /* format medium container */
 .medium-container {
   width: 300px;
-  flex-shrink: 2;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 32px;
+  flex-shrink: 0;
 }
 
 /* format small container */
 .small-container {
   width: 240px;
-  height: 500px;
-  flex-shrink: 3;
-  margin-right: 30px;
+  margin-right: 33px;
+  flex-shrink: 0;
 }
 
 /* format text in image */
@@ -159,11 +157,11 @@ p {
 
 /* fix margins */
 .old-story-container-left {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .old-story-container-right {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 /* --------------------------- Last column --------------------------- */
@@ -187,4 +185,44 @@ p {
   font-size: 12px;
   color: dimgray;
   border-bottom: solid black 1px;
+}
+
+/* ----------------------------------- footer --------------------------------- */
+
+footer {
+  background-color: MediumAquaMarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding-right: 25px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: solid 2px white;
+}
+
+.info {
+  display: flex;
+}
+
+footer nav {
+  padding-left: 25px;
+}
+
+footer nav span {
+  padding: 20px 10px;
+}
+
+footer nav span a {
+  color: black;
 }
