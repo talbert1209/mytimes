@@ -67,46 +67,42 @@ p {
   font-size: 17px;
 }
 
+/* Add image and format headline-image */
+.headline-image {
+  background-image: url("../images/main-story.png");
+  height: 300px;
+  display: flex;
+}
+
 /* add background image to #earth */
 #earth {
   background-image: url("../images/fall-season.png");
   height: 300px;
+  text-align: center;
 }
 
 /* add background image to #camera */
 #camera {
   background-image: url("../images/hip-cameraman.png");
   height: 300px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 /* add background image to middle-story-img */
 .middle-story-img {
   background-image: url("../images/cat-ceo.png");
   height: 300px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-/* format text of middle-story-img */
-.middle-story-img span {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-/* format text in image of main column */
+/* format text in images (not main story) */
+.middle-story-img span,
 .old-story-img span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
+  text-align: center;
 }
 
 /* format main container */
@@ -139,13 +135,6 @@ p {
   margin-right: 30px;
 }
 
-/* format headline-image */
-.headline-image {
-  background-image: url("../images/main-story.png");
-  height: 300px;
-  display: flex;
-}
-
 /* format text in image */
 .headline-image span {
   font-family: Georgia;
@@ -165,6 +154,7 @@ p {
 .old-story-container-right {
   display: inline-flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 /* fix margins */
@@ -174,10 +164,4 @@ p {
 
 .old-story-container-right {
   margin-right: 10px;
-}
-
-/* format side-story and side-story-img */
-.middle-story-container,
-.middle-story,
-.middle-story-img {
 }
