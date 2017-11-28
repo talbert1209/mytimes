@@ -213,6 +213,7 @@ footer {
 
 .info {
   display: flex;
+  padding: 20px 0;
 }
 
 footer nav {
